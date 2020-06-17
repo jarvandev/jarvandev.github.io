@@ -4,4 +4,4 @@ const port = 3000
 
 app.get('/', (req, res) => res.send('hello world'))
 
-app.listen(post, () => console.log('App running on port'))
+app.listen(port, () => console.log(`App running on ${port}`))
